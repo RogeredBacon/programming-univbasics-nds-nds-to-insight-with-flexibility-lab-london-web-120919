@@ -50,8 +50,7 @@ def movies_with_director_key(name, movies_collection)
   # movie_with_director_name method
   
   movies_hash = {}
-  print name
-  print movies_collection
+  
   
 end
 
