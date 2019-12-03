@@ -70,7 +70,7 @@ def gross_per_studio(collection)
   while i < collection.length
     if studios_gross_total[collection[i][:studio]] do
       studios_gross_total[collection[i][:studio]] += collection[i][:worldwide_gross]
-    else
+    else do
       studios_gross_total[collection[i][:studio]] = collection[i][:worldwide_gross]
     end
     i += 1
